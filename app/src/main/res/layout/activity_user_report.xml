@@ -17,23 +17,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fast_gate_logos"
-        tools:srcCompat="@drawable/fast_gate_logos" />
+        tools:srcCompat="@drawable/fast_gate_logos"
+        android:contentDescription="TODO" />
 
 
     <Button
         android:id="@+id/btnBack"
-        android:layout_width="43dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="16dp"
-        android:background="#FFFFFF"
-        android:drawableTop="?android:attr/actionModeCloseDrawable"
-        android:foregroundTint="#FFFFFF"
+        android:layout_width="97dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/colorBackground"
+        android:contentDescription="INAPOI"
+        android:drawableBottom="?android:attr/actionModeCloseDrawable"
+        android:drawablePadding="@android:dimen/app_icon_size"
         android:textColor="#FFFFFF"
         android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ListView
         android:id="@+id/report_lisView"
@@ -60,5 +64,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/report_lisView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
+        app:layout_constraintVertical_bias="0.213" />
 </androidx.constraintlayout.widget.ConstraintLayout>

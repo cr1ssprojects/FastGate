@@ -14,6 +14,7 @@ drawable launcher
 id AlertTextView
 id btnAcces
 id btnBack
+id btnBack2
 id btnLogin
 id btnRaport
 id btnUserData
@@ -51,6 +52,7 @@ layout login
 layout main_page
 layout reporttextview
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string car

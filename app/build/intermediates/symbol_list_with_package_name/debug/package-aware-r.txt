@@ -2512,6 +2512,7 @@ id bottom
 id bounce
 id btnAcces
 id btnBack
+id btnBack2
 id btnLogin
 id btnRaport
 id btnUserData
@@ -3062,6 +3063,7 @@ layout text_view_without_line_height
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

@@ -9,6 +9,22 @@
     android:orientation="vertical"
     tools:context=".MainPageActivity">
 
+    <Button
+        android:id="@+id/btnBack2"
+        android:layout_width="95dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="108dp"
+        android:background="@color/colorBackground"
+        android:drawableTop="?android:attr/actionModeCloseDrawable"
+        android:foregroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="409dp"
@@ -29,16 +45,20 @@
         android:layout_marginStart="4dp"
         app:layout_constraintBottom_toTopOf="@+id/openGateButton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784"
         app:srcCompat="@drawable/gate_closed" />
 
     <Button
         android:id="@+id/openGateButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="157dp"
+        android:layout_height="61dp"
         android:layout_marginBottom="132dp"
+        android:background="#0050DA"
         android:text="OPEN THE GATE"
+        android:textColor="@color/colorBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -16,21 +16,29 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AccessActivity extends AppCompatActivity {
-
     private static Context context;
     private final static String TAG = "AccessActivityTag";
     private static final byte[] header = {'G', 'A', 'T', 0x68};
     private static final byte[] deviceUID = "357940090908175".getBytes();
     private Button btnAccesPoarta;
     private ImageView imageViewPoarta;
+    private Button btnBack2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_access);
         context = this;
+        
         imageViewPoarta = (ImageView) findViewById(R.id.imageViewPoarta);
         btnAccesPoarta = (Button) findViewById(R.id.openGateButton);
+        btnBack2 = (Button) findViewById(R.id.btnBack2);
+        btnBack2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+            });
         if (!Bluetooth.isConnected()) {
             btnAccesPoarta.setEnabled(false);
         }
