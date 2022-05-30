@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InteliBar</string>
+    <string name="nume">nume</string>
+    <string name="prenume">prenume</string>
+    <string name="divizie">divizie</string>
+    <string name="car">numar masina</string>
+    <string name="ora_intrare">ora_intrare</string>
+    <string name="ora_iesire">ora_iesire</string>
+</resources>

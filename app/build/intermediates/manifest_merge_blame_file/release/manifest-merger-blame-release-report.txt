@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ip.fastgate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Proiect_IP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Proiect_IP\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:6:5-74
+12-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:6:22-71
+13  //
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:7:5-79
+14-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:8:5-76
+15-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:8:22-73
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:9:5-75
+16-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:9:22-72
+17
+18    <supports-screens android:normalScreens="true" />
+18-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:11:5-54
+18-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:11:23-51
+19
+20    <application
+20-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:13:5-52:19
+21        android:allowBackup="true"
+21-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:14:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:15:9-43
+24        android:label="FastGate"
+24-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:16:9-33
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:18:9-35
+27        android:theme="@style/AppTheme" >
+27-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:19:9-40
+28        <activity
+28-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:20:9-29:20
+29            android:name="com.ip.fastgate.LoginActivity"
+29-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:21:13-57
+30            android:exported="true"
+30-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:23:13-36
+31            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+31-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:22:13-80
+32            <intent-filter>
+32-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:24:13-28:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:25:17-69
+33-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:27:17-77
+35-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:27:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:30:9-35:83
+39            android:name="com.ip.fastgate.MainPageActivity"
+39-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:31:13-60
+40            android:exported="true"
+40-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:33:13-36
+41            android:label="Menu Activity"
+41-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:32:13-42
+42            android:parentActivityName="com.ip.fastgate.LoginActivity"
+42-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:34:13-71
+43            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+43-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:35:13-80
+44        <activity
+44-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:37:9-41:83
+45            android:name="com.ip.fastgate.UserProfileActivity"
+45-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:38:13-63
+46            android:label="Vizualizare date personale"
+46-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:39:13-55
+47            android:parentActivityName="com.ip.fastgate.MainPageActivity"
+47-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:40:13-74
+48            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+48-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:41:13-80
+49        <activity
+49-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:42:9-46:83
+50            android:name="com.ip.fastgate.UserReportActivity"
+50-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:43:13-62
+51            android:label="Raport Activitate"
+51-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:44:13-46
+52            android:parentActivityName="com.ip.fastgate.MainPageActivity"
+52-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:45:13-74
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+53-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:46:13-80
+54        <activity
+54-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:47:9-51:83
+55            android:name="com.ip.fastgate.AccessActivity"
+55-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:48:13-58
+56            android:label="Activitate Acces"
+56-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:49:13-45
+57            android:parentActivityName="com.ip.fastgate.MainPageActivity"
+57-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:50:13-74
+58            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+58-->C:\Proiect_IP\app\src\main\AndroidManifest.xml:51:13-80
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+62            android:authorities="com.ip.fastgate.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Emanuel Cristian\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+70        </provider>
+71    </application>
+72
+73</manifest>
